@@ -29,8 +29,8 @@ export default class GetApi extends Component {
         return<div>Loading...</div>
     }
     return (
- <React.Fragment>
-    <div style={{minHeight:"400px",width:"600px" }}>
+  
+    <div style={{width:"600px" ,background:"red"}}>
        {
          data.map((item,index)=>{
             return(
@@ -51,7 +51,7 @@ export default class GetApi extends Component {
          })
        }
     </div>
- </React.Fragment>
+ 
     )
   }
 }

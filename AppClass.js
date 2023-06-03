@@ -8,21 +8,23 @@ import EventHandle from "./class/EventHandle";
 import SetStateCount from "./class/SetStateCount";
 import Constructor from "./class/LifeCycle/Constructor";
 import GetApi from "./class/GetApi";
+import ShowData from "./class/ShowData";
 
 
 class AppClass extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <State />
+                {/* <State />
                 <SetState />
                 <Props name="shashi" />
                 <DescProps name="shahsi" place="Gorakhpur" />
                 <DescState />
                 <EventHandle />
                 <SetStateCount/>
-                <Constructor />
-                <GetApi/>
+                <Constructor /> */}
+                {/* <GetApi/> */}
+                <ShowData/>
             </React.Fragment>
         )
     }
